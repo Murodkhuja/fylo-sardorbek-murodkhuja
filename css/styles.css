@@ -294,8 +294,7 @@ body {
 /* FIFTH SECTION */
 
 .fifth-section {
-  position: relative;
-  top: 50%;
+
 }
 
 .fifth-section-sub-container {
@@ -340,4 +339,7 @@ body {
 
 /* FOOTER  */
 
-.
+.footer-section {
+  background-color: tomato;
+  
+}
