@@ -223,6 +223,24 @@ body {
 
 .fourth-section {
   margin-top: 170px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.fourth-section::before {
+  content: "";
+  width: 32px;
+  height: 12px;
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  display: inline-block;
+  background-image: url("../img/tirnoq.svg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
 }
 
 .fourth-section-list {
@@ -242,6 +260,9 @@ body {
 .fourth-section-quote {
   margin: 0;
   margin-bottom: 17px;
+  font-size: 10px;
+  line-height: 18px;
+  width: 240px;
 }
 
 .quote-owner-img {
@@ -269,3 +290,54 @@ body {
   width: 120px;
   justify-content: space-between;
 }
+
+/* FIFTH SECTION */
+
+.fifth-section {
+  position: relative;
+  top: 50%;
+}
+
+.fifth-section-sub-container {
+  background-color: #1B2330;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+  border-radius: 9px;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.fifth-section-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.fifth-section-text {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.fifth-section-input {
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  border-radius: 26px;
+  padding: 15px 25px;
+  font-size: 10px;
+  line-height: 14px;
+  color: #c0c0c0;
+  width: 210px;
+}
+
+.fifth-section-button {
+  margin-top: 24px;
+  border: none;
+  width: 265px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* FOOTER  */
+
+.
